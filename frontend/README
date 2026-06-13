@@ -1,0 +1,62 @@
+# RescueLink 🆘
+
+An emergency SOS app that allows users to send one-tap alerts with their live location to emergency contacts.
+
+## 🚀 Features
+- One-tap SOS alert
+- Real-time location sharing
+- Emergency contact management
+- Simple, accessible UI for quick use in emergencies
+
+## 🛠️ Tech Stack
+React, Node.js, Express, MongoDB, Geolocation API
+
+## 📸 Screenshots
+
+<table>
+<tr>
+<td align="center"><b>Home Screen</b></td>
+<td align="center"><b>SOS Alert</b></td>
+</tr>
+<tr>
+<td><img src="./screenshots/home.png" width="400"/></td>
+<td><img src="./screenshots/alert.png" width="400"/></td>
+</tr>
+<tr>
+<td align="center"><b>Emergency Contacts</b></td>
+<td align="center"><b>Location Sharing</b></td>
+</tr>
+<tr>
+<td><img src="./screenshots/contacts.png" width="400"/></td>
+<td><img src="./screenshots/location.png" width="400"/></td>
+</tr>
+</table>
+
+## ⚙️ Setup Instructions
+
+1. Clone the repository
+```bash
+git clone <your-repo-link>
+cd rescuelink
+```
+
+2. Install dependencies (frontend & backend)
+```bash
+cd client && npm install
+cd ../server && npm install
+```
+
+3. Run the app
+```bash
+# Backend
+npm run dev
+
+# Frontend (new terminal)
+cd client && npm run dev
+```
+
+## 🌐 Live Demo
+[View Live Demo](#)
+
+## 👤 Author
+Anushri — [Anushri2717](#) 
